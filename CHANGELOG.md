@@ -1,3 +1,8 @@
+# 8.4.5
+
+* Fixed Code Assist Using statement recognition #10
+* Fixed Catched possible exception while reading connected database schema
+
 # 8.4.4
 
 * Added GET-CLASS buildin function
