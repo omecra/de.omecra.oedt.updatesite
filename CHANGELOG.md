@@ -1,3 +1,11 @@
+# 8.4.1
+
+* Fixed Coloring of Nested Comments starting with /** and containing /*
+* Fixed File Refactoring with overlapping package import
+* Fixed Parsing Temptable like definition (not all places where you can put the LIKE definition where covered)
+* Fixed Smart Casing for the keyword EVENT
+* Fixed Constructor Argument Completion for Assembly and Proclib Classes (inserting the datatype instead of the parameter name) 
+
 # 8.4.0
 
 * Fixed Override Implement Wizard Code generation
