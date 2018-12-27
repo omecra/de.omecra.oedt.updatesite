@@ -1,3 +1,8 @@
+# 8.3.1 Changelog
+
+* Fixed "Open Declaration F3" in Includetext {... hit F3 ...}
+* Fixed "Exclude From Build" evaluation 
+
 # 8.3.0 Changelog
 
 * Added OEDT License Model
