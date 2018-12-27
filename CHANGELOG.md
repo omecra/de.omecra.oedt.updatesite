@@ -1,3 +1,26 @@
+# 8.4.4
+
+* Added GET-CLASS buildin function
+* Added include file evaluation for "Unused variables" functionality
+* Added support for member-references (variables, methods, etc) which are keywords
+* Added parser tracks NEW SHARED, SHARED option for a better support for "Unused variables" functionality
+* Added REPOSITION-BACKWARD and REPOSITION-FORWARD
+* Fixed code assist for Assembly Enums (wrong internal type-mapping)
+* Fixed Using statement order is now taken into account for code assist
+* Fixed OEDT database load procedure for connected oracle databases (load only databases with type 'PROGRESS')
+* Fixed code assist for keyword abbreviations (instead of DEF to DEFINE, DEF+DEFI+DEFIN to DEFINE)
+* Fixed duplicate Using statement for different classes (second class get's now fully qualified)
+* Fixed possible NPE in ImageProvider
+* Fixed Editor, Compile on Save for include files (was generating r-files)
+* Added better description for "Compile on Save" option (is executed only if Autobuild is disabled)
+* Fixed Parameter wizard dialog datatype evaluation
+* Added evaluation of using statements in include files, fixes code assist for these kind of references
+* Added evaluation of temptable like definition per include parameter (DEFINE TEMP-TABLE tt LIKE {3})
+* Fixed "Autobuild", "Disable Compile" and "Compile on Save" interaction
+> Note: OEDT depends on the "Autobuild" feature of eclipse. If "Autobuild" is disabled, the OEDT Model which is responsible for code assist and finding references (refactoring) will not updated properly. If you just want to disable the compilation, then use the option "Disable Compile". This way, the model gets updated, but no compilation is done. To add compilation to the files opened in the OEDT editor, activate "Compile on Save" additionaly.
+* Added JFace Fix from Eclipse 4.6/4.7 for Eclipse 4.5.2 which fixes comment block editing
+* Added option to skip preprocessor block evaluation during parsing (default: true), allows tracking of references in inactive preprocessor blocks  
+
 # 8.4.3
 
 * Added Search for Eclipse Helpsystem in Editor (Shift + F2)
