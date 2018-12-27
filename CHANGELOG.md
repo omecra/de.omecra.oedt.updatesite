@@ -1,3 +1,12 @@
+# 8.4.0
+
+* Fixed Override Implement Wizard Code generation
+* Fixed Cursor position for OEDT Doc Block Start
+* Added Smart Keyword Casing + preference (fixes the casing of .net properties which are often keywords)
+* Fixed Event-Methods Casing (publish, subscribe, unsubscribe)
+* Fixed CodeAssist/Hover for Temptable FIELD LIKE definitions
+* Added some optimization to auto bracketing
+
 # 8.3.2 Changelog
 
 * Fixed an offset bug in Code Assist Replace mode (holding CTRL during Code Assist)
