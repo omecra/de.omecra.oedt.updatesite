@@ -1,3 +1,9 @@
+# 8.4.3
+
+* Added Search for Eclipse Helpsystem in Editor (Shift + F2)
+* Fixed Editor coloring after shortest comment block definition
+* Added Preference for Correct Using on Save (default is true)
+
 # 8.4.2
 
 * Fixed SpeedScript Compile
