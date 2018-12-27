@@ -1,3 +1,9 @@
+# 8.4.2
+
+* Fixed SpeedScript Compile
+* Fixed Annotation Hovertext for Override and Implements
+* Added Code Assist for chain calls with leading whitespaces
+
 # 8.4.1
 
 * Fixed Coloring of Nested Comments starting with /** and containing /*
