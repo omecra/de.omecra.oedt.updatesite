@@ -1,3 +1,15 @@
+# 8.3.2 Changelog
+
+* Fixed an offset bug in Code Assist Replace mode (holding CTRL during Code Assist)
+* Added database name Code Assist
+* Fixed Code Assist for tables prefixed with a database name
+* Added match underscore to Code assist (t_h -> finds table_history)
+* Fixed Code Assist for .net collections
+* Redesign Clean Build -> (Refreshes Project, Removes RCode, Rebuilds Model and compiles all files)
+* Fixed Compile Files/Projectbuilder to compile only files under a SRC propath entry (see the BUILD Tab in project settings)
+* Added option to exclude parameters/variables/buffers in procedures/functions/methods from Quick Outline
+* Added option to exclude buffer/temptable fields from Quick Outline 
+
 # 8.3.1 Changelog
 
 * Fixed "Open Declaration F3" in Includetext {... hit F3 ...}
