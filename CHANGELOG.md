@@ -1,3 +1,11 @@
+# 8.4.6
+
+* Added OEDTDocParser for ABLDoc (OEDT for OE 11.6 and 11.7) #31
+> Note: This option is disabled per default and can be changed via 
+Window - Preferences - Oedt - Use OedtDocTagParser for ABL Doc
+The OEDTDocParser removes the leading stars from OEDTDoc and sends the modified comment back to the default ABLDoc Parser.
+* Added .sonarlint folder filter to the Project Explorer #34
+
 # 8.4.5
 
 * Fixed Code Assist Using statement recognition #10
