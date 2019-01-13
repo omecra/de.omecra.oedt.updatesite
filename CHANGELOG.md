@@ -1,3 +1,8 @@
+# 8.4.7
+
+* Added Support for Sonarlint #35
+* Fixed Unused Variables False Positive for some keywords which are used as identifier #32
+
 # 8.4.6
 
 * Added OEDTDocParser for ABLDoc (OEDT for OE 11.6 and 11.7) #31
