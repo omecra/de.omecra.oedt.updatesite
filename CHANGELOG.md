@@ -1,3 +1,9 @@
+# 8.4.8
+
+* Fixed "Auto-Check-Syntax" #36
+* Fixed "Compile on Save if Auto-Build disabled" #38
+> Note: OEDT depends on the "Autobuild" feature of eclipse. If "Autobuild" is disabled, the OEDT Model which is responsible for code assist and finding references (refactoring) will not updated properly. If you just want to disable the compilation, then use the option "Disable Compile for Auto-Build". This way, the model gets updated, but no compilation is done. To add compilation to the files opened in the OEDT editor, activate "Compile on Save if Auto-Build is disabled" additionaly.
+
 # 8.4.7
 
 * Added Support for Sonarlint #35
