@@ -1,3 +1,11 @@
+# 8.5.0
+
+* Added Export/Import OEDT preferences #39
+* Fixed Compile and Checksyntax for files with different source file encoding #40
+* Fixed Macro/Template with pressing return instead of spacebar #41
+* Fixed Override/Implement of method with returntype extent #42
+* Fixed Autocompletion for temp-tables with nested preprocessor suffixes #43
+
 # 8.4.8
 
 * Fixed "Auto-Check-Syntax" #36
