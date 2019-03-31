@@ -1,3 +1,15 @@
+# 9.0.0
+
+* Added Code Assist ignore classes with includeTooling=false #14
+* Added Hover/CodeAssist generate parameter names if OedtDoc is not present
+* Added ToggleComment action for Single line comment (CTRL+7), Multi line comment is now (CTRL+SHIFT+7) #52
+* Added ABLUnit Run/Debug Configuration to OEDT editor #45
+* Added Switch to Designer (Appbuilder/Visual Designer) to OEDT editor (F9) #47
+* Fixed Procedure/Function Wizard code generation in Appbuilder files #46
+* Added Preference for Appbuilder file extensions (default = .w)
+* Added Aligned facet version and plug-in version #37
+> Note: OEDT 9 is only available for OpenEdge 11.7.x and OpenEdge 12.x
+
 # 8.5.1
 
 * Fixed Macro/template expansion with multiple placeholders broken #48
