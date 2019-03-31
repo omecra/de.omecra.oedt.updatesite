@@ -1,3 +1,7 @@
+# 8.5.1
+
+* Fixed Macro/template expansion with multiple placeholders broken #48
+
 # 8.5.0
 
 * Added Export/Import OEDT preferences #39
