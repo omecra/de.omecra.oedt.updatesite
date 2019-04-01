@@ -1,3 +1,8 @@
+# 9.0.1
+
+* Fixed NPE Run/Debug ABLUnit Application #56
+* Fixed Code Assist includeTooling=false #14
+
 # 9.0.0
 
 * Added Code Assist ignore classes with includeTooling=false #14
