@@ -1,3 +1,9 @@
+# 9.0.2
+
+* Added Hover/CodeAssist generate parameter for Assembly classes
+* Added "Progress OpenEdge Application by OEDT" Run/Debug Launch Configuration
+> Note: These Run/Debug configuration has only one goal, to allow debugging 32bit applications from 64bit PDSOE. I have no idea wether this is working under all circumstances, but I did a few successful test cases.
+
 # 9.0.1
 
 * Fixed NPE Run/Debug ABLUnit Application #56
