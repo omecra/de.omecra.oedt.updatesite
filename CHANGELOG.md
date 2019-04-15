@@ -1,3 +1,7 @@
+# 9.0.3
+
+* Removed dependency from OpenEdge 11.7.4 #60
+
 # 9.0.2
 
 * Added Hover/CodeAssist generate parameter for Assembly classes
