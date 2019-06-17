@@ -1,3 +1,14 @@
+# 9.1.0
+
+* Added addional validation for #61
+* Fixed Unused procedure if reference is in a trigger phrase #62
+* Added NPE handling from Progress compilation #63
+* Updated recognition of new keywords for 11.7.4 and 12.0.0 #64
+* Added Refactoring (Move) of directories #29
+* Fixed Refactoring (Rename) of directories #29
+* Fixed Memberrefactoring (Rename), added some more validations and fixed references #20
+* Started main work on Using Statements #11 and #16 -> fix will be included in 9.1.1
+
 # 9.0.3
 
 * Removed dependency from OpenEdge 11.7.4 #60
