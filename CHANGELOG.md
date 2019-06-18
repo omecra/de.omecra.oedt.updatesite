@@ -1,3 +1,8 @@
+# 9.1.1
+
+* Enhanced Refactoring (Move, Rename) for Packages and Files (for example TestSuites)
+> Note: If you have already installed OEDT 9.1.0 you need the rebuild the source model (context menu from the project explorer)
+
 # 9.1.0
 
 * Added addional validation for #61
