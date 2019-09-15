@@ -1,3 +1,14 @@
+# 9.2.0
+
+* Added Support for OpenEdge 12.1
+* Fixed Check-Syntax #66
+* Fixed Exception with empty test suites #76
+* Added Option for skipping derived files #44
+* WIP Correct Usings - add missing using statements #16
+* Added Copy file names from include view #65
+* Added Compile Xref XML #67
+* WIP Multi project dependencies compile #15
+
 # 9.1.1
 
 * Enhanced Refactoring (Move, Rename) for Packages and Files (for example TestSuites)
