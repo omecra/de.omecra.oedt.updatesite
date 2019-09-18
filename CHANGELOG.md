@@ -1,3 +1,7 @@
+# 9.2.1
+
+* Added Support for variables in the environment tab for Oedt Run Configurations
+
 # 9.2.0
 
 * Added Support for OpenEdge 12.1
