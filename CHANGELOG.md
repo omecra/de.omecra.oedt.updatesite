@@ -1,3 +1,7 @@
+# 9.2.3
+
+* Fixed Code Assist for static methods and property
+
 # 9.2.2
 
 * Fixed Oedt Run Configurations always starting in debug mode
