@@ -1,3 +1,8 @@
+# 9.2.2
+
+* Fixed Oedt Run Configurations always starting in debug mode
+* Added Option to compile files with missing rcode #70
+
 # 9.2.1
 
 * Added Support for variables in the environment tab for Oedt Run Configurations
