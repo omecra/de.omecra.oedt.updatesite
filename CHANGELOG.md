@@ -1,3 +1,13 @@
+# 9.2.4
+
+* Added Parameter evaluation to unused definitions #30
+* Fixed CodeAssist for CREATE DATASET #8
+* Added Goto Source Line #74
+* Fixed False/Positiv for static methods in used defintions #78
+* Fixed False/Positiv for private methods #6
+* Fixed Occurrence selection for private static method invocations
+* Added Preference tab with license informations and reorganized some preferences
+
 # 9.2.3
 
 * Fixed Code Assist for static methods and property
