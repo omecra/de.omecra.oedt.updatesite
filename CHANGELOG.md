@@ -1,3 +1,9 @@
+# 9.2.5
+
+* Added Automatic replacement of DLC Propath entries with choosen Runtime to OEDT Run Configurations
+> Note: Example: PDSOE with 12.1, Run Configuration with 11.7 -> Replaces DLC 12.1 with DLC 11.7
+>       This replacement is not visible in the Propath tab.
+
 # 9.2.4
 
 * Added Parameter evaluation to unused definitions #30
