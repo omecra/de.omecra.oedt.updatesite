@@ -1,3 +1,7 @@
+# 9.2.7
+
+* Fixed Before-Table and Temp-Table collision in argument code completion #82
+
 # 9.2.6
 
 * Added Buffers, Temptables, Tables and Datasets in argument code completion for handle parameters #81 
