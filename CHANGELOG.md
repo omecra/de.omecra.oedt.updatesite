@@ -1,3 +1,11 @@
+# 9.2.6
+
+* Added Buffers, Temptables, Tables and Datasets in argument code completion for handle parameters #81 
+* Added Blocklables (Code Assist, Outline) #80
+* Fixed License Info regarding wrong month (Oedt Preferences)
+* Fixed Parameter usage evaluation for Datasets
+* Fixed "Open Implementation" for implementations in parent classes 
+
 # 9.2.5
 
 * Added Automatic replacement of DLC Propath entries with choosen Runtime to OEDT Run Configurations
