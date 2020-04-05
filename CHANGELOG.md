@@ -1,14 +1,34 @@
+# 9.3.0
+
+* Added support for Openedge 12.2 - droped support for Openedge 12.0
+  > Note: Openedge 12.2 requires Java 11 - OEDT for Openedge 12.2 is compiled againt Java 11
+* Added Support for new PACKAGE-PRIVATE and PACKAGE-PROTECTED modifiers
+  * Code Assist
+  * Wizards
+  * Icons
+* Added UpperCase CodeAssist for Elements with an underscore ("_") or dash ("-")
+  * Element: tt_my_long_table_name -> TMLTN + CodeAssit(CTRL + SPACE) -> tt_my_long_table_name
+* Added new Using-Statement Engine (disabled by default)
+  * Option: Window -> Preferences -> Oedt -> Using Statement -> "Use new Using-Engine (BETA)"
+  * Main goals:
+    * handle using statements in preprocessor blocks
+    * automatically add missing using statements on save (if enabled)
+  > Note: This feature is in beta status and is therefore disabled by default
+  >       Feedback regarding Performance and Issues are welcome
+* Fixed CodeAssist for super classes referenced via qualifiedname
+* Improved calculation of class references
+
 # 9.2.7
 
 * Fixed Before-Table and Temp-Table collision in argument code completion #82
 
 # 9.2.6
 
-* Added Buffers, Temptables, Tables and Datasets in argument code completion for handle parameters #81 
+* Added Buffers, Temptables, Tables and Datasets in argument code completion for handle parameters #81
 * Added Blocklables (Code Assist, Outline) #80
 * Fixed License Info regarding wrong month (Oedt Preferences)
 * Fixed Parameter usage evaluation for Datasets
-* Fixed "Open Implementation" for implementations in parent classes 
+* Fixed "Open Implementation" for implementations in parent classes
 
 # 9.2.5
 
@@ -119,7 +139,7 @@
 # 8.4.6
 
 * Added OEDTDocParser for ABLDoc (OEDT for OE 11.6 and 11.7) #31
-> Note: This option is disabled per default and can be changed via 
+> Note: This option is disabled per default and can be changed via
 Window - Preferences - Oedt - Use OedtDocTagParser for ABL Doc
 The OEDTDocParser removes the leading stars from OEDTDoc and sends the modified comment back to the default ABLDoc Parser.
 * Added .sonarlint folder filter to the Project Explorer #34
@@ -150,7 +170,7 @@ The OEDTDocParser removes the leading stars from OEDTDoc and sends the modified 
 * Fixed "Autobuild", "Disable Compile" and "Compile on Save" interaction
 > Note: OEDT depends on the "Autobuild" feature of eclipse. If "Autobuild" is disabled, the OEDT Model which is responsible for code assist and finding references (refactoring) will not updated properly. If you just want to disable the compilation, then use the option "Disable Compile". This way, the model gets updated, but no compilation is done. To add compilation to the files opened in the OEDT editor, activate "Compile on Save" additionaly.
 * Added JFace Fix from Eclipse 4.6/4.7 for Eclipse 4.5.2 which fixes comment block editing
-* Added option to skip preprocessor block evaluation during parsing (default: true), allows tracking of references in inactive preprocessor blocks  
+* Added option to skip preprocessor block evaluation during parsing (default: true), allows tracking of references in inactive preprocessor blocks
 
 # 8.4.3
 
@@ -170,7 +190,7 @@ The OEDTDocParser removes the leading stars from OEDTDoc and sends the modified 
 * Fixed File Refactoring with overlapping package import
 * Fixed Parsing Temptable like definition (not all places where you can put the LIKE definition where covered)
 * Fixed Smart Casing for the keyword EVENT
-* Fixed Constructor Argument Completion for Assembly and Proclib Classes (inserting the datatype instead of the parameter name) 
+* Fixed Constructor Argument Completion for Assembly and Proclib Classes (inserting the datatype instead of the parameter name)
 
 # 8.4.0
 
@@ -191,12 +211,12 @@ The OEDTDocParser removes the leading stars from OEDTDoc and sends the modified 
 * Redesign Clean Build -> (Refreshes Project, Removes RCode, Rebuilds Model and compiles all files)
 * Fixed Compile Files/Projectbuilder to compile only files under a SRC propath entry (see the BUILD Tab in project settings)
 * Added option to exclude parameters/variables/buffers in procedures/functions/methods from Quick Outline
-* Added option to exclude buffer/temptable fields from Quick Outline 
+* Added option to exclude buffer/temptable fields from Quick Outline
 
 # 8.3.1 Changelog
 
 * Fixed "Open Declaration F3" in Includetext {... hit F3 ...}
-* Fixed "Exclude From Build" evaluation 
+* Fixed "Exclude From Build" evaluation
 
 # 8.3.0 Changelog
 
