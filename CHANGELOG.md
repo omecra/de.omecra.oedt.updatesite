@@ -1,3 +1,8 @@
+# 9.3.1
+
+* Fixed new using engine regarding FROM ASSEMBLY #89
+* Added optional file encoding menu to the project explorer (Activate: Window -> Preferences -> Oedt -> View Preferences)
+
 # 9.3.0
 
 * Added support for Openedge 12.2 - droped support for Openedge 12.0
