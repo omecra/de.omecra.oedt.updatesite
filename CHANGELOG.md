@@ -1,5 +1,20 @@
 # 9.3.1
 
+* Fixed possible NPE during Startup for Oedt Database
+* Fixed Parser for Preprocessor statements in case block
+* Added preference for annotation and single line comment, should fix #86
+* Added option to disable "Refresh using native hook" during compilation #91
+> Window -> Preference -> Oedt -> Compile -> "Suspend native refresh hook during compilation"
+* Fixed "Correct Keywords" Action #90
+> Added Context-aware variant for editor menu ("Correct on Save" still uses the context-free version)
+>       The computation may take a while, depending on the size of the file
+>       The new computation fixed wrong cased keywords, which are identifiers
+>       Example: MyEvent:PUBLISH() -> MyEvent:Publish(), DEFINE VARIABLE oError AS ERROR. -> DEFINE VARIABLE oError AS Error.
+> Added Context-aware CodeAssist for DEFINE, CONSTRUCTOR, DESTRUCTOR, METHOD statements
+>       Example: CONSTRUCTOR <CTRL + SPACE> -> "Simple Classname" and modifiers
+
+# 9.3.1
+
 * Fixed new using engine regarding FROM ASSEMBLY #89
 * Added optional file encoding menu to the project explorer (Activate: Window -> Preferences -> Oedt -> View Preferences)
 

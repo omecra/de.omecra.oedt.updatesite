@@ -3,7 +3,7 @@
    <description name="OEDT Plug-in Update Site" url="https://www.omecra.de/oedt/update117">
       OEDT Plug-in Update Site for OpenEdge 11.7.x
    </description>
-   <feature url="features/de.omecra.oedt_9.3.1.jar" id="de.omecra.oedt" version="9.3.1">
+   <feature url="features/de.omecra.oedt_9.3.2.jar" id="de.omecra.oedt" version="9.3.2">
       <category name="OEDT 9 for OpenEdge 11.7.x"/>
    </feature>
    <category-def name="OEDT 9 for OpenEdge 11.7.x" label="OEDT 9 for OpenEdge 11.7.x"/>
