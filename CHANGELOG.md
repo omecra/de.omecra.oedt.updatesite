@@ -1,4 +1,8 @@
-# 9.3.1
+# 9.3.3
+
+* Fixed ConcurrentModificationException during startup for OedtDatabase #92
+
+# 9.3.2
 
 * Fixed possible NPE during Startup for Oedt Database
 * Fixed Parser for Preprocessor statements in case block
