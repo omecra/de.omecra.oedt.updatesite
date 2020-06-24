@@ -1,3 +1,12 @@
+# 9.3.4
+
+* Fixed Dialog-Title for member refactoring
+* Added preferences (Oedt -> Editor) for coloring buffer, temptables and temptable-buffers #100
+* Fixed Exception for "Oedt Database Update" Job #101
+* Fixed Keyword-Expansion for datatype LOGICAL (LOG -> LOGICAL) #94
+* Added some keyword method and function overloads #97
+* Fixed unused variables detection for output parameters with initial value #95
+
 # 9.3.3
 
 * Fixed ConcurrentModificationException during startup for OedtDatabase #92
