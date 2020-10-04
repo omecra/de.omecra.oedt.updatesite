@@ -1,3 +1,10 @@
+# 9.3.5
+
+* Added support for features in the upcoming OpenEdge release
+* Added option to align the FROM-phrase in USING statements #103
+* Fixed unused variable regarding variable name equals to validate #104
+* Added new code assist priority for table proposals inside query context #102
+
 # 9.3.4
 
 * Fixed Dialog-Title for member refactoring
