@@ -1,3 +1,13 @@
+# 9.3.6
+
+* Fixed Correct Using - wildcard imports #105
+* Fixed Keywords as identifiers breaking AST generation #111
+* Fixed Toggle Comment #110
+* Added Show compilation summary #106
+* Fixed Rename of variables with same name (global and local) #98
+* Added Correct Using - preserve Sonarlint PP-Token #11
+* Added Format Code Action (for 12.x only) #59
+
 # 9.3.5
 
 * Added support for features in the upcoming OpenEdge release

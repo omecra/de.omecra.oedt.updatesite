@@ -4,7 +4,7 @@
       OEDT Plug-in Update Site for OpenEdge 12.2
    </description>
    <feature url="features/de.omecra.oedt_9.3.6.jar" id="de.omecra.oedt" version="9.3.6">
-      <category name="OEDT 9 for OpenEdge 12.2"/>
+      <category name="OEDT 9 for OpenEdge 12.3"/>
    </feature>
-   <category-def name="OEDT 9 for OpenEdge 12.2" label="OEDT 9 for OpenEdge 12.2"/>
+   <category-def name="OEDT 9 for OpenEdge 12.3" label="OEDT 9 for OpenEdge 12.3"/>
 </site>
