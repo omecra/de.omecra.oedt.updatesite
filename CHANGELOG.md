@@ -1,3 +1,11 @@
+# 9.3.7
+
+* Fixed several minor issues with "Add missing using statements"
+* Added hyperlinks in console output
+* Added better code assist for handle-datatyp #93
+* Fixed autobracketing
+* Fixed casing after bracket
+
 # 9.3.6
 
 * Fixed Correct Using - wildcard imports #105
