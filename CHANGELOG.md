@@ -1,3 +1,8 @@
+# 9.3.8
+
+* Fixed hyperlinks in console output for projects with a dot in the name
+* Added correct indentation to 12.2+ #115
+
 # 9.3.7
 
 * Fixed several minor issues with "Add missing using statements"
