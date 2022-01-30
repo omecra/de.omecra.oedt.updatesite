@@ -1,3 +1,11 @@
+# 9.4.0
+
+* Added features to database view #122
+* Fixed code formatting #119
+* Added option in preferences for hyperlinks to procedure files without file extension #123
+* Added Hyperlinksresolution to "Open Declaration" (Open Implementation, Returntype, Returntype Implementation)
+* Added Classdefinition changes to dependency build #124
+
 # 9.3.8
 
 * Fixed hyperlinks in console output for projects with a dot in the name
