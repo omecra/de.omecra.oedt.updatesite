@@ -1,3 +1,13 @@
+# 9.4.1
+
+* Fixed No support to switch between Visual Designer and code for User Controls #127
+* Fixed Refactoring & CallHierarchy for Enum Values #128
+* Fixed View Design for extern Controls (Telerik) #129
+* Fixed Wizards, Link to Outline, Refactoring if code folding is used #131
+* Added Basic-Support for Generics in 12.5 (Parsing, Hyperlinks, Refactoring)
+* Added Override Properties support in 12.5
+* Added Safe-Navigation Support (?:)
+
 # 9.4.0
 
 * Added features to database view #122
