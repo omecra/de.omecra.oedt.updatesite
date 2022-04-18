@@ -1,3 +1,14 @@
+# 9.4.2
+
+* Fixed Code-Assist Single Insert Issue #135
+* Fixed Argument Completion for Temptable- & Databasefields #134
+* Fixed Dot issue in Argument Completion #134
+* Added _msg as keyword #133
+* Fixed _ Code-Assist #133
+* Fixed Duplicate Keywords in Code-Assist
+* Fixed Correct Keyword as Editor Saveaction (is now the same like Source -> Correct Keywords) #132
+* Changed Unused parameter evaluation of event methods (now, skipped) #130
+
 # 9.4.1
 
 * Fixed No support to switch between Visual Designer and code for User Controls #127
