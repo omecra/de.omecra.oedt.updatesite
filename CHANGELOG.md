@@ -1,3 +1,17 @@
+# 9.4.4
+
+- Fixed Unused Variables - Qualified references to private static properties, variables or methods #130
+- Fixed Sending OEIdeEvents except before-/after-run (this allows debugging 32bit applications from 64bit pdsoe) #137
+- Fixed Code Assistant for database aliases #142
+- Removed support for old comment style because of side-effects #144
+- Added Code Assistant for datatypes defined in preprocessor statements #147
+- Fixed "Correct Keywords" casing issue with classes from progress.lang #151
+- Changed Behavior for "Unused Variables" - keywords as identifiers are now excluded #146
+- Added Decimals property for OEDT database view properties #152
+- Fixed Code Assistant for THIS- keyword #139
+- Added Appbuilder-Structure to Outline #150
+- Added Jet-Templates to OEDT wizards - preference: Code Assistance - Template code generation #18
+
 # 9.4.3
 
 - Fixed Correct Keyword as Editor Saveaction (9.4.1 plus some optimizations) #136
