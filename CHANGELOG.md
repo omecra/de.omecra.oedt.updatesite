@@ -1,3 +1,11 @@
+# 9.4.5
+
+- Fixed Code Assistant for database aliases #142
+- Fixed size of source model databases in .metadata folder #155
+- Fixed Correct keywords #156
+- Fixed include references with filenames starting with a number #158
+- Added mandatory to Oedt Database properties view #153
+
 # 9.4.4
 
 - Fixed Unused Variables - Qualified references to private static properties, variables or methods #130
