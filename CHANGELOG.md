@@ -1,3 +1,7 @@
+# 9.4.6
+
+- Fixed mandatory to Oedt Database properties view #153
+
 # 9.4.5
 
 - Fixed Code Assistant for database aliases #142
