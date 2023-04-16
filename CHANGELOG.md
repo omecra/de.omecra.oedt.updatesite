@@ -1,3 +1,9 @@
+# 9.4.7
+
+- Added Jump between Source- and Testclass (same qualified name with suffix 'Test')
+- Fixed GoTo code block start and end and added brackets as well #161
+- Added Preference for collapsing using statements by default (Oedt -> Using Statement) #160
+
 # 9.4.6
 
 - Fixed mandatory to Oedt Database properties view #153
