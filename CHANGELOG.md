@@ -1,3 +1,11 @@
+# 9.4.8
+
+- Fixed identifier starting with a number #166
+- Fixed Edit location and editor navigation #164
+- Fixed Occurrence and refactoring of RUN ... IN Statements #163
+- Added Type Hierarchy View - ShortCut F4, Call Hierarchy - Shortcut changed to CTRL+ALT+H #162
+- Fixed Open with Visual Designer for RadRibbonForm
+
 # 9.4.7
 
 - Added Jump between Source- and Testclass (same qualified name with suffix 'Test')
