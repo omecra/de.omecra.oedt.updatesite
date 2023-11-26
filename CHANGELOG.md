@@ -1,3 +1,9 @@
+# 9.4.9
+
+- Fixed Open project with double click (sometimes not initializing OEDT correctly) #167
+- Fixed Some problematic abbreviations #168 #170
+- Added Quoter functionality - CTRL + SHIFT + 2 for quoting selected text #169
+
 # 9.4.8
 
 - Fixed identifier starting with a number #166
