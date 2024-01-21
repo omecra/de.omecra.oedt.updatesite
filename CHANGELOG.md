@@ -1,3 +1,11 @@
+# 9.5.0
+
+- Added Rebuild context menu to assembly and procedure library view
+- Added support for OpenEdge 12.8
+- Changed default filter behavior for views to matches #175
+- Reworked toggle (single line) comment and changed block comment to java-style #172
+- Fixed hover for overloaded methods #173
+
 # 9.4.9
 
 - Fixed Open project with double click (sometimes not initializing OEDT correctly) #167
