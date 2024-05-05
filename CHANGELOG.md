@@ -1,3 +1,11 @@
+# 9.5.1
+
+- OedtDoc comment style is now optional #178
+- Added copy, cut and delete action to the outline context menu #149
+- Fixed call hierarchy for static methods #174
+- Fixed assembly model for generic classes #180
+- Added new class dependency view #162
+
 # 9.5.0
 
 - Added Rebuild context menu to assembly and procedure library view
