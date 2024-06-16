@@ -1,3 +1,13 @@
+# 9.5.2
+
+- Fixed a rare comparator exeception on startup
+- Fixed possible NPE during using statement computation
+- Added new option to ignore propath entry setting includeTooling="false" #185
+- Fixed code assist for non-unique class names #184
+- Added dialog (Correct usings (CTRL + U)) for non-unique missing using statements #16
+- Fixed call hierarchy for static members #186
+- Added call hierarchy option to hyperlinks #187
+
 # 9.5.1
 
 - OedtDoc comment style is now optional #178
