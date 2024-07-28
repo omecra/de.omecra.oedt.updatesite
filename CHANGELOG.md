@@ -1,3 +1,9 @@
+# 9.5.4
+
+- Fixed "Correct Keywords" regarding procedure names #188
+- Fixed "Correct Keywords" regarding 12.8 added keywords #189
+- Added code assist for end statements #190
+
 # 9.5.3
 
 - Fixed missing using calculation #16
