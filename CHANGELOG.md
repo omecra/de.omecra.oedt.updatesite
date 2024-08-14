@@ -1,3 +1,9 @@
+# 9.5.5
+
+- Fixed model exception of nested includes evaluation #191
+- Added mandatory to index fields properties page (select node in database view) #192
+- Added description and active for to index properties page (select node in database view) #192
+
 # 9.5.4
 
 - Fixed "Correct Keywords" regarding procedure names #188
