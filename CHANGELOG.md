@@ -1,3 +1,7 @@
+# 9.5.6
+
+- Fixed Casing for additional method parameters #194
+
 # 9.5.5
 
 - Fixed model exception of nested includes evaluation #191
